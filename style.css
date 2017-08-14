@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+
+.bolder{
+    font-weight: bold;
+    color: #2e2e2e;
+}
+
+.home-nav{
+    background-color: #fff;
+    border-bottom-color: #FAB579;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.home-ceo iframe{
+    position: relative;
+    width: 80%;
+    height: 70vh;
+}
+
+
+.home-nav-img{
+    width: 30%;
+}
+
+.home-ceo div{
+    padding: 20px;
+}
+
+.home-ceo{
+    background-color: #1289C7;
+    color: #FFE300;
+    font-size: 36px;
+    font-weight: bold;
+    height: 100vh;
+    
+}
+
+.home-schools{
+    background-color: #fff;
+    height: 30vh;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.home-schools img{
+    width: 80%;
+}
+
+
+.home-fin{
+    background-color: #1289C7;
+    color: #FFE300;
+    font-size: 36px;
+    font-weight: bold;
+    height: 100vh;
+}
+
+.home-fin-img{
+    height: 30%;
+    width: 40%;
+    background-image: url('https://d2saw6je89goi1.cloudfront.net/65/f34d6073dd11e7a3133714ebc885f2/IMG_3757.jpg');
+    background-size: cover;
+
+}
