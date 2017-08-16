@@ -5,6 +5,15 @@ body{
     width: 100%;
 }
 
+li:before {    
+    font-family: 'FontAwesome';
+    content: "\f00c";
+    margin:0 5px 0 -15px;
+}
+
+ul { padding-left:20px; list-style:none; }
+li { margin-bottom:10px; }
+
 
 .bolder{
     font-weight: bold;
@@ -59,13 +68,37 @@ body{
     color: #FFE300;
     font-size: 36px;
     font-weight: bold;
-    height: 100vh;
+    height: auto;
 }
 
-.home-fin-img{
-    height: 30%;
-    width: 40%;
-    background-image: url('https://d2saw6je89goi1.cloudfront.net/65/f34d6073dd11e7a3133714ebc885f2/IMG_3757.jpg');
-    background-size: cover;
+.home-list{
+    position: relative;
+    color: #ffffff;
+    line-height: 31px;
+    font-style: normal;
+    font-size: 22px;
+}
 
+.home-offer{
+    background-color: #2D2D2D;
+    padding: 5%;
+    color: #fff;
+
+}
+
+.home-offer h4{
+    color: #FFE300;
+}
+
+.home-offer button{
+    background-color: #379B85;
+    padding: 10%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.home-offer input{
+    border-radius: 5px;
+    padding: 5%;
 }
