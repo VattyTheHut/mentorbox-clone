@@ -14,44 +14,58 @@ app.config(function($stateProvider, $urlRouterProvider) {
         })
 
         // HOME STATES AND NESTED VIEWS ========================================
+        .state('books', {
+            url: '/books',
+            templateUrl: 'views/books.html'
+            
+        })
+
+        // HOME STATES AND NESTED VIEWS ========================================
+        .state('articles&essays', {
+            url: '/ARTICLES&ESSAYS',
+            templateUrl: 'views/ARTICLES&ESSAYS.html'
+            
+        })
+
+        // HOME STATES AND NESTED VIEWS ========================================
+        .state('event', {
+            url: '/events',
+            templateUrl: 'views/event.html'
+            
+        })
+        
+        // HOME STATES AND NESTED VIEWS ========================================
+        .state('blog', {
+            url: '/BLOG',
+            templateUrl: 'views/blog.html'
+        })
+
+        // HOME STATES AND NESTED VIEWS ========================================
+        .state('about', {
+            url: '/about',
+            templateUrl: 'views/about.html'
+        })
+
         .state('login', {
             url: '/login',
-            templateUrl: 'views/login.html'
-            
+            templateUrl: 'views/login.html'  
         })
 
-        // HOME STATES AND NESTED VIEWS ========================================
-        .state('terms', {
-            url: '/terms',
-            templateUrl: 'views/terms.html'
-            
+        .state('contact', {
+            url: '/contact',
+            templateUrl: 'views/contact.html'
         })
 
-        // HOME STATES AND NESTED VIEWS ========================================
-        .state('policy', {
-            url: '/policy',
-            templateUrl: 'views/policy.html'
-            
+        .state('biography', {
+            url: '/about-biography',
+            templateUrl: 'views/biography.html'  
+        })
+
+        .state('cv', {
+            url: '/jennifers-cv',
+            templateUrl: 'views/cv.html'
         })
         
-        // HOME STATES AND NESTED VIEWS ========================================
-        .state('profile', {
-            url: '/profile',
-            templateUrl: 'views/profile.html'
-        })
-
-        // HOME STATES AND NESTED VIEWS ========================================
-        .state('affiliates', {
-            url: '/affiliates',
-            templateUrl: 'views/affiliates.html'
-            
-        })
-        
-        // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
-        .state('shopmentorbox', {
-            url: '/shopmentorbox',
-            templateUrl: 'views/shopmentorbox.html'
-        })
         
 }).directive('mainNav', function() {
   return {
@@ -61,11 +75,6 @@ app.config(function($stateProvider, $urlRouterProvider) {
   return {
     templateUrl: './directive/footer.html'
   };
-  
-}).directive('profileNav', function() {
-  return {
-    templateUrl: './directive/social.html'
-  };
-  
+    
 });
 
